@@ -480,23 +480,23 @@ int main()
 	cin >> secondArray;
 	cout << "secondArray: " << secondArray << endl;
 
-//	cout << endl;
-//
-//	cout << "Проверка работы алгоритмов сортировок: " << endl;
-//	Array sortAlgorithmArray = firstArray;
-//	cout << "До алгоритмов сортировки: " << sortAlgorithmArray << endl;
-//	sortAlgorithmArray.ShellSort();
-//	cout << "После алгоритма Шелла: " << sortAlgorithmArray << endl;
-//
-//	sortAlgorithmArray = firstArray;
-//	sortAlgorithmArray.HeapSort();
-//	cout << "После пирамидального алгоритма: " << sortAlgorithmArray << endl;
-//
-//	sortAlgorithmArray = firstArray;
-//	sortAlgorithmArray.HoareSort();
-//	cout << "После алгоритма Хоара: " << sortAlgorithmArray << endl;
-//
-//	AllSorts();
-//
-//	return 0;
-//}
+	cout << endl;
+
+	cout << "Проверка работы алгоритмов сортировок: " << endl;
+	Array sortAlgorithmArray = firstArray;
+	cout << "До алгоритмов сортировки: " << sortAlgorithmArray << endl;
+	sortAlgorithmArray.ShellSort();
+	cout << "После алгоритма Шелла: " << sortAlgorithmArray << endl;
+
+	sortAlgorithmArray = firstArray;
+	sortAlgorithmArray.HeapSort();
+	cout << "После пирамидального алгоритма: " << sortAlgorithmArray << endl;
+
+	sortAlgorithmArray = firstArray;
+	sortAlgorithmArray.HoareSort();
+	cout << "После алгоритма Хоара: " << sortAlgorithmArray << endl;
+
+	AllSorts();
+
+	return 0;
+}
